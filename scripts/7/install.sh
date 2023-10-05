@@ -10,8 +10,8 @@ hocvps_version="2.1"
 phpmyadmin_version="4.9.5" # Released 2020-03-21. Older version compatible with PHP 5.5 to 7.4 and MySQL 5.5 and newer. Currently supported for security fixes only.
 extplorer_version="2.1.13" # 05/15/2019 04:43 PM
 extplorer_id="82"
-script_root="https://raw.githubusercontent.com/duy13/HocVPS-Script/master/scripts"
-script_url="https://raw.githubusercontent.com/duy13/HocVPS-Script/master/scripts/7"
+script_root="https://raw.githubusercontent.com/cgtmedia/HocVPS/main/scripts"
+script_url="https://raw.githubusercontent.com/cgtmedia/HocVPS/main/scripts/7"
 low_ram='262144' # 256MB
 
 yum -y install gawk bc wget lsof
@@ -277,7 +277,7 @@ max_input_nesting_level = 128
 max_input_vars = 2000
 mysqlnd.net_cmd_buffer_size = 16384
 always_populate_raw_post_data=-1
-disable_functions=shell_exec
+disable_functions=
 END
 
 # Zend Opcache
