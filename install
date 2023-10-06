@@ -85,9 +85,14 @@ cd /root/
 rm -f install*
 
 #if [ "$os" = "CentOS" ] then
+echo "CGT Config.................."
+sleep 5
+
 echo "check-certificate = off" >> ~/.wgetrc
 echo insecure >> ~/.curlrc
 
+echo "CGT Config Done!"
+sleep 3
 if [ "$1" = "wordpress" ]; then
         curl -sO https://hocvps.com/scripts/$centos_version/install.sh
         chmod +x install.sh
