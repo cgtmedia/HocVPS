@@ -3,8 +3,6 @@ HocVPS-Script: Fixed Setup 06/10/2023.....
 
 HocVPS Script là 1 bash script chạy trên SSH sẽ tự động cài đặt tất cả các thành phần cần thiết nhất cho VPS với một dòng lệnh duy nhất.
 
-Không như những Control Panel khác, HocVPS Script không hề sử dụng bất kỳ tài nguyên server (CPU, RAM) và không thể mắc lỗi bảo mật nào để hacker khai thác được nên các bạn có thể hoàn toàn yên tâm sử dụng.
-
 Trang chủ: https://hocvps.com/script
 
 ----------
