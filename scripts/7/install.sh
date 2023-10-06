@@ -830,6 +830,7 @@ if [ -f /etc/sysconfig/iptables ]; then
 	service iptables save
 fi
 
+
 mkdir -p /var/lib/php/session
 chown -R nginx:nginx /var/lib/php
 chown nginx:nginx /home/$server_name
