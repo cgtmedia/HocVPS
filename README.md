@@ -21,7 +21,11 @@ curl -sLO https://raw.githubusercontent.com/cgtmedia/HocVPS/main/install && bash
 
 ```
 
+```
+
 – Trong khi cài đặt chọn Mariadb 10.5. Mariadb thấp hơn không còn hoạt động!
+
+```
 
 – Cài đặt xong, khi connect SSH VPS bạn hãy sử dụng port 2222, không dùng port 22!
 
